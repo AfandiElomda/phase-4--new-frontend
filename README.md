@@ -3,14 +3,14 @@
 This app helps you keep track of your groceries
 
 # Minimum Viable Services
-Users is able to sign in
-Users is able to add books
-Users is able to delete books
+* Users is able to sign in
+* Users is able to add books
+* Users is able to delete books
 
 # Challenges Faced
- Displaying data on cart when clicking add to cart button 
- Solving images faced to display instead of a URL
- Implementing adding total values in the cart that have been selected
+ * Displaying data on cart when clicking add to cart button 
+ * Solving images faced to display instead of a URL
+ * Implementing adding total values in the cart that have been selected
 
 # Installation
 To open the project locally: Fork and clone both the front-end and back-end repositories
@@ -29,7 +29,7 @@ http://phase-4-new-frontend.vercel.app/
 
 
 # Back-end github link
-
+https://github.com/AfandiElomda/phase-4-project
 # License
 
 MIT License
