@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './Card.css'
 
 const Card = ({id,name,image_url,price,rating,grocery,setGrocery,handleAddToCart}) => {

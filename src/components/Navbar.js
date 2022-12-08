@@ -1,6 +1,7 @@
 import React from 'react'
 import {SiAudiomack} from 'react-icons/si'
 import {BsCartPlusFill} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -9,12 +10,12 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='container'>
       <h1><span><SiAudiomack/> Groceries</span></h1>
-      <a href='/signup'><button className='btn'>Sign In</button></a>
+      <Link to='/signup'><button className='btn'>Sign In</button></Link>
       <ul className='nav-menu'>
-        <li><a href='/'>Home</a></li>
-        <li><a href='/ourgroceries'>Our Groceries</a></li>
-        <li><a href='/addgroceries'>Add Groceries</a></li>
-        <li><a href='/cart'><BsCartPlusFill className='icon'/><span>Cart</span></a></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/ourgroceries'>Our Groceries</Link></li>
+        <li><Link to='/addgroceries'>Add Groceries</Link></li>
+        <li><Link to='/cart'><BsCartPlusFill className='icon'/><span>Cart</span></Link></li>
         
       </ul>
       <div classname="hioutline">
