@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #60AC47;
+    color: #fff
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.footer .social {
+    text-align: center;
+
+}
