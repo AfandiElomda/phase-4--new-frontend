@@ -21,7 +21,7 @@ function AddGroceries() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("groceries-production.up.railway.app/groceries", {
+    fetch("/groceries", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
