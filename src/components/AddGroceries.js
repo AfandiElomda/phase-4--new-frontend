@@ -21,7 +21,7 @@ function AddGroceries() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/groceries", {
+    fetch("http://groceries-production-1.up.railway.app/groceries", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -44,28 +44,28 @@ function AddGroceries() {
     <div className="card">
       <h2>New Groceries</h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name: </label>
+        <label className="name">Name: </label>
         <input
           type="text"
           id="name"
           value={formData.title}
           onChange={handleChange}
         />
-        <label htmlFor="image_url">Image URL: </label>
+        <label className="image_url">Image URL: </label>
         <input
           type="text"
           id="image"
           value={formData.image}
           onChange={handleChange}
         />
-        <label htmlFor="price">Price: </label>
+        <label className="price">Price: </label>
         <input
           type="text"
           id="price"
           value={formData.notes}
           onChange={handleChange}
         />
-        <label htmlFor="rating">Rating: </label>
+        <label className="rating">Rating: </label>
         <input
           id="rating"
           value={formData.description}
