@@ -8,8 +8,9 @@ This app helps you keep track of your groceries
 * Users is able to delete books
 
 # Challenges Faced
+ * Sorting out the blocked cors error in the frontend .i.e failed to fetch the deployed link
  * Displaying data on cart when clicking add to cart button 
- * Solving images faced to display instead of a URL
+ * Displaying backend images instead of an image URl
  * Implementing adding total values in the cart that have been selected
 
 # Installation
