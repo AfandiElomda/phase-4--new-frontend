@@ -14,7 +14,7 @@ const Groceries = () => {
   const [cart, setCart] = useState([])
 
   useEffect(() => {
-    fetch("http://groceries-production.up.railway.app/groceries")
+    fetch("groceries-production.up.railway.app/groceries")
       .then((r) => r.json())
       .then(data => setGrocery(data))
   }, []);
