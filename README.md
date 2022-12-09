@@ -26,7 +26,7 @@ cd into the project directory run 'npm install' run 'npm start' and the applicat
 http://phase-4-new-frontend.vercel.app/
 
 # Backend
-https://groceries-production-1.up.railway.app/
+https://groceries-production-1.up.railway.app/groceries
 
 # Back-end github link
 https://github.com/AfandiElomda/phase-4-project
