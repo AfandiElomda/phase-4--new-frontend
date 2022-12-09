@@ -7,7 +7,7 @@ const Card = ({id,name,image_url,price,rating,grocery,setGrocery,handleAddToCart
     function handleDeleteClick(id){
         const deletedCard = grocery.filter(item => item.id !== id)
         setGrocery(deletedCard)
-        fetch(`/groceries/${id}`,{
+        fetch(`"http://groceries-production.up.railway.app/groceries/${id}`,{
           method: "DELETE",
           headers: {
             'Content-Type': 'application/json'
