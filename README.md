@@ -3,10 +3,9 @@
 This app helps you keep track of your groceries
 
 # Minimum Viable Services
-* User is able to sign in 
 * User is able to sign in
-* User is able to add books
-* User is able to delete books
+* User is able to add groceries
+* User is able to delete groceries
 
 # Challenges Faced
  * Sorting out the blocked cors error in the frontend .i.e failed to fetch the deployed link
